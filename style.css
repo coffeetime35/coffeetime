@@ -1,0 +1,274 @@
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?w46k4v');
+  src:  url('fonts/icomoon.eot?w46k4v#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?w46k4v') format('truetype'),
+    url('fonts/icomoon.woff?w46k4v') format('woff'),
+    url('fonts/icomoon.svg?w46k4v#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-google3:before {
+  content: "\ea8a";
+}
+.icon-google-drive:before {
+  content: "\ea8f";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-spotify:before {
+  content: "\ea94";
+}
+.icon-telegram:before {
+  content: "\ea95";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-vk:before {
+  content: "\ea98";
+}
+.icon-youtube2:before {
+  content: "\ea9e";
+}
+#lolaa{
+    font-size: 2em;
+}
+#sapo{
+    background-color: chocolate;
+    border-color: chocolate
+}
+.nav-item{
+    background-color: #fff;
+    height: 70px;
+}
+
+#gtco-special-dishes{
+  background-color: #fff;
+  margin-left: 10px;
+}
+.sps--abv{
+  background-color: #fff;
+  color: #000;
+}
+.sps--blw{
+  background-color: #fff;
+  color: #fff;
+}
+.navbar-collapse{
+  text-align: right;
+}
+.ij{
+  margin-left: 70px;
+}
+.li{
+  margin-right: 100px;
+  padding-left:20px;
+  padding-right: 20px;
+}
+nav.sps--abv .ij{
+  width: 260px;
+  height: 100px;
+}
+.altura-a-b{
+  padding: 100px 0;
+}
+.lios iframe{
+  height: 400px;
+  width: 400px;
+}
+.lios{
+    margin-right: 40px;
+}
+.ja{
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+
+}
+.ja img{
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.liaa a:link {
+    font-size: 15px;
+    }
+    .liaa a:visited {
+    font-size: 15px;
+    }
+    .liaa a:hover {
+    font-size: 16px;
+        background-position: center 0%; 
+        background-size: cover;
+        text-shadow: 7px 4px 5px #000;
+        color: chocolate;
+    }
+footer{
+    background-color: #000000;
+    padding: 100px 0;
+    text-align: center;
+}
+footer .logotipo-footer{
+    width: 200px;
+    margin-bottom: 20px;
+}
+footer p{
+    color: #fff;
+    font-size: 12px;
+}
+.iconos-redes-header{
+    width: 20px;
+    margin: 10px 5px ;
+}
+.soci{
+  position: fixed;
+  right: 0;
+  top: 300px;
+  margin-left: -40px;
+  z-index: 2000;
+
+}
+.soci ul{
+   list-style: none;
+}
+.sici.lapaz{
+  border-radius: 0px 5px 0px 0px;
+}
+.soci ul li a{
+   display: inline-block;
+   color: #fff;
+   background: #000;
+   padding: 30px 40px;
+   text-decoration: none;
+   -webkit-transition: none 500ms ease;
+   -o-transition: all 500ms ease;
+   transition: all 500ms ease;
+}
+.soci ul li .icon-lapaz{
+    background-image: url(img/maxresdefault.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    }
+.soci ul li .icon-santa{
+  background-image: url(img/sansan.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  }
+.soci ul li .icon-cocha{
+  background-image: url(img/cu.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+.soci ul li .icon-vk{background: #ffd7ab;}
+.soci ul li .icon-whatsapp{background:#874421 ;}
+
+.soci ul li a:hover {
+    
+    background: #000;
+}
+.soci #title{
+  position: fixed;
+  background: #1c1c1c;
+  padding: 6px;
+  border-radius: 3px;
+  font-size: 15px;
+  margin-top: -4px;
+  transition: all 500ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+.soci a:hover #title{
+  opacity: 1;
+  visibility: visible;
+  margin-left: 45px;
+}
+.soci #title::after{
+  position: absolute;
+  content: '';
+  border-left: 7px solid transparent;
+  border-right: 6px solid #1c1c1c;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  right: 100%;
+  top: 8px;
+}
+#mas{
+  text-align: center;
+  background-color: #874421;
+  color: #fff;
+  border-radius: 30px;
+  border: 1px #fff solid;
+}
+#menos{
+  background-color: #874421;
+  color: #fff;
+  border-radius: 30px;
+  border: 1px #fff solid;
+}
+#masa{
+  text-align: center;
+  background-color: sienna;
+  color: #fff;
+  border-radius: 30px;
+  border: 1px #fff solid;
+}
+.jota img{
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#koko{
+    font-family:'Lato', sans-serif;
+}
+#koko p{
+    font-family: 'Lato', sans-serif;
+}
+#dedo{
+  text-align: center;
+font-family: 'Lato', sans-serif;
+  background-color: sienna;
+  color: #fff;
+  border-radius: 30px;
+  border: 1px #fff solid;
+}
+@media(min-width:1200px){
+    .susa{
+/*
+        background-position-x:calc(100vw-800px);
+         background-position:calc(100vw-800px);
+        
+*/
+        font-family: 'Lato', sans-serif;
+        width: 200px;
+    }
+}
